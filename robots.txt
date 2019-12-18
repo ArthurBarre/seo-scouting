@@ -1,6 +1,6 @@
 # Allow
 User-agent: *
-Allow: /dist/
+Allow: /
 
 
 Sitemap: https://les4branchesdelamain.netlify.com/sitemap.xml
