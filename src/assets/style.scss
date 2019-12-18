@@ -27,6 +27,14 @@ header {
   height:8vh;
   @include flexbox(row, center, center);
   box-shadow: 0 0 10px;
+
+  img {
+    height: 80%;
+    margin-right: 0.6rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
 }
 
 .darkmode-container {
