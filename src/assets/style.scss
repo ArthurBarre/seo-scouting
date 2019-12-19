@@ -4,6 +4,10 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 
 $primary-color: #2c9c59;
 $secondary-color: #045434; 
@@ -114,7 +118,7 @@ header {
     }
   
     
-    div {
+    a,div {
       width: 80%;
       padding: 5%;
       background-color: white;
