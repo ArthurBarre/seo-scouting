@@ -11,6 +11,8 @@ a{
 
 $primary-color: #2c9c59;
 $secondary-color: #045434; 
+$light: #fff;
+$dark: #000;
 
 @mixin flexbox($direction, $justify, $align) {
   display: flex;
@@ -118,7 +120,7 @@ header {
     }
   
     
-    a,div {
+    div {
       width: 80%;
       padding: 5%;
       background-color: white;
@@ -157,3 +159,12 @@ footer {
   padding: 5%;
 }
 
+body, #thumbnail {
+  background-color: $light;
+  color: $dark;
+
+  &.toggle-isClicked{
+    background-color: $dark;
+    color: $light;
+  }
+}
