@@ -46,9 +46,8 @@ header {
   @include flexbox(row, center, center);
   box-shadow: 0 0 10px;
 
-  img {
-    height: 80%;
-    margin-right: 0.6rem;
+  a {
+    @include flexbox(row, space-between, center);
   }
   h1 {
     font-size: 1.4rem;
