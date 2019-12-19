@@ -1,0 +1,48 @@
+.myArticle {
+  padding: 2rem 2rem;
+
+  img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 2rem 0; 
+  }
+
+  .external-link {
+    color: $primary-color;
+    text-decoration: underline;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li:before {
+    content: '- ';
+  }
+
+  aside {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  @include large {
+    padding: 2rem 14rem;
+
+    article {
+      padding: 0 4rem;
+    }
+  }
+}
