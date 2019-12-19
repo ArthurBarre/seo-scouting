@@ -195,3 +195,17 @@ body,
   text-decoration: underline;
   color: blue;
 }
+
+.darkmode-image-moon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.darkmode-image-sun {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: none;
+}
+
+.disable {
+  display: none;
+}
