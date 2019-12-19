@@ -4,9 +4,11 @@ const link =  document.querySelector('#link-thumbnail');
 const body =  document.querySelector('#body');
 const bodyArticle = document.querySelector('#bodyArticle');
 const texts = document.querySelector('#textArticle p');
+const logo = document.getElementById('logo');
 
 if (body) {
   darkmodeBtn.addEventListener('click', () => {
+
     if(body.className !== 'toggle-isClicked'){
       body.className = 'toggle-isClicked';
     divs.forEach(div => {
@@ -24,11 +26,29 @@ if (body) {
 } else {
   darkmodeBtn.addEventListener('click', () => {
     if(bodyArticle.className !== 'toggle-isClicked'){
-      bodyArticle.className = 'toggle-isClicked';
+      bodyArticle.className = 'toggle-isClicked';x
       texts.style.color = 'white'
+      
+
     } else {
       bodyArticle.className = '';
       texts.style.color = 'black'
     }
   })
 }
+
+logo.addEventListener('click', function() {
+  logo.classList.add('toggle-isClicked'); 
+  console.log('ok' + logo.classList); 
+})
+
+darkmodeBtn.addEventListener('click', function() {
+  if (logo.classList.contains('toggle-isClicked')) {
+    logo.classList.remove('toggle-isClicked'); 
+  }
+
+  else {
+    logo.classList.add('toggle-isClicked'); 
+  }
+})
+

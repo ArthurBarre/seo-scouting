@@ -27,6 +27,18 @@ $dark: #000;
   }
 }
 
+.logo {
+  path {
+    fill: $dark; 
+  }
+
+  &.toggle-isClicked {
+    path {
+      fill: white;
+    }
+  }
+}
+
 
 header {
   width: 100%;
@@ -49,6 +61,15 @@ header {
   padding: 2rem 0;
   @include flexbox(row, center, unset);
   cursor: pointer;
+
+  img {
+    width: 1.25rem;
+    height: 1.25rem;
+
+    &.lightmode {
+      display: none;
+    }
+  }
 }
 
 .last-article-container {
@@ -159,7 +180,8 @@ footer {
   padding: 5%;
 }
 
-body, #thumbnail {
+body, 
+#thumbnail {
   background-color: $light;
   color: $dark;
 
