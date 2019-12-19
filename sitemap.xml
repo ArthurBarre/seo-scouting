@@ -4,53 +4,23 @@
 
   <url>
 
-    <loc>https://www.laboutiqueduscoutisme.com/</loc>
+    <loc>https://les4branchesdelamain.netlify.com/</loc>
 
-    <changefreq>monthly</changefreq>
+    <changefreq>daily</changefreq>
 
-    <priority>0.6</priority>
-
-  </url>
-
-
-  <url>
-
-    <loc>https://www.decathlon.fr/</loc>
-
-    <changefreq>weekly</changefreq>
-
-    <priority>0.5</priority>
-
-  </url>
-
-
-  <url>
-
-    <loc>https://www.sgdf.fr/</loc>
-
-    <changefreq>monthly</changefreq>
+    <lastmod>2019-12-19</lastmod>
 
     <priority>1</priority>
 
   </url>
 
-
   <url>
 
-    <loc>https://www.fne.asso.fr/</loc>
+    <loc>https://les4branchesdelamain.netlify.com/article.html</loc>
 
     <changefreq>monthly</changefreq>
 
-    <priority>0.6</priority>
-
-  </url>
-
-
-  <url>
-
-    <loc>https://www.croix-rouge.fr/</loc>
-
-    <changefreq>monthly</changefreq>
+    <lastmod>2019-12-19</lastmod>
 
     <priority>0.7</priority>
 
