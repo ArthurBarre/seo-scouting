@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://les4branchesdelamain.netlify.com/">
+
+  <url>
+
+    <loc>https://les4branchesdelamain.netlify.com/</loc>
+
+    <changefreq>daily</changefreq>
+
+    <lastmod>2019-12-19</lastmod>
+
+    <priority>1</priority>
+
+  </url>
+
+  <url>
+
+    <loc>https://les4branchesdelamain.netlify.com/article.html</loc>
+
+    <changefreq>monthly</changefreq>
+
+    <lastmod>2019-12-19</lastmod>
+
+    <priority>0.7</priority>
+
+  </url>
+
+</urlset>
